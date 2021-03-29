@@ -12,7 +12,7 @@ jobs:
     - name: Unpacking Image
       run: |
         wget -q https://raw.githubusercontent.com/DroidDumps/phoenix_firmware_dumper/main/utils/unpackboot.sh
-        wget https://ghostmirror.hitesh920.workers.dev/mi8937-tiare-test-recovery-0124.img >/dev/null
+        wget https://ghostmirror.hitesh920.workers.dev/tiare-boot-k4.9.img >/dev/null
         # bash wgetgdrive.sh ID file_name
         # export RECOVERYTAR=$(tar -tzf *.tgz | grep recovery.img) && tar -vxf *.tgz $RECOVERYTAR
         # export RECOVERYZIP=$(zip -sf *zip | grep recovery.img) && unzip *.zip $RECOVERYZIP
